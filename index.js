@@ -64,6 +64,8 @@ exports.uploadPermanentVideoMaterial = permanent.uploadPermanentVideoMaterial;
 exports.uploadPermanentImageMaterial = permanent.uploadPermanentImageMaterial;
 exports.uploadPermanentVoiceMaterial = permanent.uploadPermanentVoiceMaterial;
 exports.uploadPermanentThumbMaterial = permanent.uploadPermanentThumbMaterial;
+exports.deletePermanentMaterial = permanent.deletePermanentMaterial;
+exports.getPermanentMaterials = permanent.getPermanentMaterials;
 
 // group operation
 exports.addGroup = group.addGroup;
