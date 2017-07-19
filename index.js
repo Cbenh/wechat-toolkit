@@ -59,11 +59,8 @@ exports.downloadMedia = media.downloadMedia;
 
 // upload and download permanent material resource
 exports.uploadPermanentNewsMaterial = permanent.uploadPermanentNewsMaterial;
-exports.uploadImageForNewsContent = permanent.uploadImageForNewsContent;
-exports.uploadPermanentVideoMaterial = permanent.uploadPermanentVideoMaterial;
-exports.uploadPermanentImageMaterial = permanent.uploadPermanentImageMaterial;
-exports.uploadPermanentVoiceMaterial = permanent.uploadPermanentVoiceMaterial;
-exports.uploadPermanentThumbMaterial = permanent.uploadPermanentThumbMaterial;
+exports.uploadPermanentNewsImageMaterial = permanent.uploadPermanentNewsImageMaterial;
+exports.uploadPermanentMaterial = permanent.uploadPermanentMaterial;
 exports.deletePermanentMaterial = permanent.deletePermanentMaterial;
 exports.getPermanentMaterials = permanent.getPermanentMaterials;
 
