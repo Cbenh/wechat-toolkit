@@ -81,6 +81,11 @@ exports.getFans = fan.getFans;
 exports.uploadNews = broadcast.uploadNews;
 exports.broadcastNewsByGroup = broadcast.broadcastNewsByGroup;
 exports.broadcastNewsByOpenId = broadcast.broadcastNewsByOpenId;
+exports.broadcastMessageByOpenId = broadcastMessageByOpenId;
+exports.broadcastVoiceByOpenId = broadcastVoiceByOpenId;
+exports.broadcastImageByOpenId = broadcastImageByOpenId;
+exports.broadcastVideoByOpenId = broadcastVideoByOpenId;
+
 exports.withdraw = broadcast.withdrawBroadcast;
 exports.broadcastMessageToAll = broadcast.broadcastMessageToAll;
 exports.broadcastNewsToAll = broadcast.broadcastNewsToAll;
