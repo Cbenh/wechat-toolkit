@@ -65,7 +65,7 @@ exports.deletePermanentMaterial = permanent.deletePermanentMaterial;
 exports.getPermanentMaterials = permanent.getPermanentMaterials;
 exports.getCountPermanentMaterials = permanent.getCountPermanentMaterials;
 exports.getPermanentMaterial = permanent.getPermanentMaterial;
-
+exports.updatePermanentNewsMaterial = permanent.updatePermanentNewsMaterial;
 // group operation
 exports.addGroup = group.addGroup;
 exports.queryGroup = group.queryGroup;
