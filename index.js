@@ -75,6 +75,7 @@ exports.moveFan = group.moveFan;
 
 // fan info
 exports.getFanInfo = fan.getFanInfo;
+exports.getFansInfo = fan.getFansInfo;
 exports.getFans = fan.getFans;
 
 // broadcast
