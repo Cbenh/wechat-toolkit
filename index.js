@@ -118,6 +118,7 @@ exports.simulateEvent = simulator.simulateEvent;
 
 // template message
 exports.sendTemplateMessage = template.sendTemplateMessage;
+exports.getTemplateId = template.getTemplateId;
 
 // order detail
 exports.getOrderDetail = order.getOrderDetail;
