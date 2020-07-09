@@ -21,6 +21,7 @@ var payment = require("./lib/payment");
 var permanent = require("./lib/permanent_material");
 var preview = require("./lib/preview_message");
 var statistic = require("./lib/statistic");
+let miniProgram = require('./lib/mini-programs/index');
 
 // enable development mode at first time
 exports.enable_dev_mode = virgin.enable_dev_mode;
@@ -151,3 +152,6 @@ exports.getUpstreamMsgDistWeek = statistic.getUpstreamMsgDistWeek;
 exports.getUpstreamMsgDistMonth = statistic.getUpstreamMsgDistMonth;
 exports.getInterfaceSummary = statistic.getInterfaceSummary;
 exports.getInterfaceSummaryHour = statistic.getInterfaceSummaryHour;
+
+// mini program
+exports.miniProgram = miniProgram;
